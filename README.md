@@ -43,6 +43,11 @@ php artisan key:generate --ansi
 ```bash
 php artisan migrate php artisan db:seed
 ```
+#### 7. Run queue
+
+```bash
+php artisan queue:work
+```
 
 Admin: admin@test.test
 User: user@test.test
