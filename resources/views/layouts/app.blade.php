@@ -15,11 +15,11 @@
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
     
-        <div class="flex">
-            <div class="bg-gray-600 min-h-screen">
+        <div class="inherit md:flex">
+            <div class="hidden md:block bg-gray-600 min-h-screen">
                 <img class="w-60" src="/logo.png" alt="logo">
             </div>
-            <div class="grow">
+            <div class="flex-1">
               <div class="h-20 flex justify-between items-center bg-white px-4">
                 <div class="h-full flex items-center border-red-500 border-b-4 text-red-500">Products</div>
                 <div class="flex space-x-4 text-gray-500">

@@ -18,7 +18,6 @@ class ProductController extends Controller
     {
       //  dd(Product::available()->get());
         $products = Product::all();
-       // dd($products);
         return view("product.index", compact("products"));
     }
 
